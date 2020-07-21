@@ -1,5 +1,5 @@
 # MUSICBP
-Beamforming and MUSIC back-projection (BP) of teleseismic P waves implemented in Matlab.
+Beamforming and MUSIC back-projection (BP) of teleseismic P waves implemented in Matlab. The Matlab Signal processing, Mapping and Imaging tool boxes are required. 
 
 The objective of this package is to perform the Back-Projection Imaging on the seismograms of large earthquakes recorded by large-scale dense arrays. The instruction is performed on the 2018 Mw 7.5 Palu Earthquake, and you can also practise Back-Projection Imaging on the 2011 Mw 9.0 Tohoku Earthquake on your own. 
 
