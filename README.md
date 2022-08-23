@@ -1,5 +1,5 @@
 # Slowness-Enhanced Back-Projection
-Slowness-Enhanced MUSIC back-projection (BP) of teleseismic P waves implemented in Matlab. The Matlab Signal processing, Mapping and Imaging tool boxes are required. 
+Slowness-Enhanced MUSIC back-projection (SEBP) of teleseismic P waves implemented in Matlab. The Matlab Signal processing, Mapping and Imaging tool boxes are required. 
 
 The objective of this package is to perform the Back-Projection Imaging on the seismograms of large earthquakes recorded by large-scale dense arrays and calibrate the spatial errors by aftershock. The instruction is performed on the 2021 Mw 7.4 Maduo Earthquake, and you can also practise Back-Projection Imaging on the 2011 Mw 9.0 Tohoku Earthquake on your own. 
 
