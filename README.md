@@ -1,11 +1,11 @@
-# MUSICBP
-Beamforming and MUSIC back-projection (BP) of teleseismic P waves implemented in Matlab. The Matlab Signal processing, Mapping and Imaging tool boxes are required. 
+# Slowness-Enhanced Back-Projection
+Slowness-Enhanced MUSIC back-projection (BP) of teleseismic P waves implemented in Matlab. The Matlab Signal processing, Mapping and Imaging tool boxes are required. 
 
-The objective of this package is to perform the Back-Projection Imaging on the seismograms of large earthquakes recorded by large-scale dense arrays. The instruction is performed on the 2018 Mw 7.5 Palu Earthquake, and you can also practise Back-Projection Imaging on the 2011 Mw 9.0 Tohoku Earthquake on your own. 
+The objective of this package is to perform the Back-Projection Imaging on the seismograms of large earthquakes recorded by large-scale dense arrays and calibrate the spatial errors by aftershock. The instruction is performed on the 2021 Mw 7.4 Maduo Earthquake, and you can also practise Back-Projection Imaging on the 2011 Mw 9.0 Tohoku Earthquake on your own. 
 
 Back-Projection is an earthquake-rupture imaging technique utilizing the coherent teleseismic P wavefield based on seismic array processing. Back-tracking of seismic waves recorded by dense arrays allows Back-Projection to determine the spatio-temporal properties of the rupture (length, direction, speed, and segmentation). Over recent decades, the development of large-scale dense seismic networks has enabled the Back-Projection imaging of the rupture process of major large earthquakes. 
 
-This code package include two versions of Back-Projection: Beamforming and Multiple Signal Classification (MUSIC). Beamforming stacks the seismograms directly in the time domain, while MUSIC is performed in the frequency domain based on the orthogonality between the noise and signal subspace of the data covariance matrix. Compared with Beamforming, MUSIC has the advantage of detecting multiple closeby sources simutaneously. More details about Back-Projection and MUSIC could be found in the following papers:
+This code package is developed based on MUSIC BP. Please see the "MUSICBP" branch for more details about MUSIC BP.
 
 Meng, L., A. Inbal, and J.-P. Ampuero. 2011. “A window into the complexity of the dynamic rupture of the 2011 Mw 9 Tohoku-Oki earthquake”, Geophys. Res. Lett., 38, L00G07, doi:10.1029/2011GL048118.
 
@@ -17,8 +17,8 @@ Backprojection imaging is also performed routinely by IRIS for all new large ear
 
 The MUSICBP code is contributed and maintained by Han Bao (hbrandon@ucla.edu), Tian Feng (tianfengseis@gmail.com) and Lingsen Meng (meng@epss.ucla.edu). 
 
-- [x] Instruction: MUSICBP.pdf
+- [x] Instruction: SEBP.pdf
 
-- [x] Code and Data: MUSICBP.zip
+- [x] Code and Data: AU*.m
 
-- [x] Related Paper: Bao_NatGeo2019.pdf and Meng_et_al-2011-Geophysical_Research_Letters.pdf
+- [x] Related Paper: BaoNG_2019.pdf
