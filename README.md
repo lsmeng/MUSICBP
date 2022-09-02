@@ -7,6 +7,6 @@ Mach waves, a unique signature of supershear ruptures, can be effectively identi
 
 The code is contributed and maintained by Liuwei Xu (xuliuw1997@ucla.edu), Han Bao (hbrandon@ucla.edu), and Lingsen Meng (meng@epss.ucla.edu). 
 
-- [x] Code and Data: MUSICBP.zip
+- [x] Code and Data: refine_2017_55_C1.ipynb
 
 - [x] Related Paper: Kokoxili 2001.pdf by M. Vallée and Eric M. Dunham, 2012
