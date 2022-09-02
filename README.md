@@ -1,24 +1,12 @@
-# MUSICBP
-Beamforming and MUSIC back-projection (BP) of teleseismic P waves implemented in Matlab. The Matlab Signal processing, Mapping and Imaging tool boxes are required. 
+# Mach wave analysis
+Mach wave analysis in Python. The Obspy modulus are required. 
 
-The objective of this package is to perform the Back-Projection Imaging on the seismograms of large earthquakes recorded by large-scale dense arrays. The instruction is performed on the 2018 Mw 7.5 Palu Earthquake, and you can also practise Back-Projection Imaging on the 2011 Mw 9.0 Tohoku Earthquake on your own. 
+The objective of this script is to identify the Mach wave for supershear earthquakes and measure the cross-correlation coefficient between mainshock Rayleigh wave and EGF Rayleight wave. 
 
-Back-Projection is an earthquake-rupture imaging technique utilizing the coherent teleseismic P wavefield based on seismic array processing. Back-tracking of seismic waves recorded by dense arrays allows Back-Projection to determine the spatio-temporal properties of the rupture (length, direction, speed, and segmentation). Over recent decades, the development of large-scale dense seismic networks has enabled the Back-Projection imaging of the rupture process of major large earthquakes. 
+Mach waves, a unique signature of supershear ruptures, can be effectively identified in the far-field surface wavefield. For earthquakes rupturing at velocities slower than Rayleigh wave speed, wavefronts from different sub-sources arrive at any far-field receiver at different times. For supershear earthquakes, only at stations located on the Rayleigh Mach cone do waves from different parts of a supershear rupture arrive simultaneously and interfere constructively, resulting in an apparent point-source. As first proposed by Vallée and Dunham, along the Mach cone, the waveform of a supershear mainshock should be identical to that of a smaller reference event, referred to as an empirical Green’s function (EGF) event, with a similar focal mechanism in the vicinity of the mainshock. The Mach wave identification is conducted by evaluating the waveform similarity between a target event and its collocated EGF.
 
-This code package include two versions of Back-Projection: Beamforming and Multiple Signal Classification (MUSIC). Beamforming stacks the seismograms directly in the time domain, while MUSIC is performed in the frequency domain based on the orthogonality between the noise and signal subspace of the data covariance matrix. Compared with Beamforming, MUSIC has the advantage of detecting multiple closeby sources simutaneously. More details about Back-Projection and MUSIC could be found in the following papers:
-
-Meng, L., A. Inbal, and J.-P. Ampuero. 2011. “A window into the complexity of the dynamic rupture of the 2011 Mw 9 Tohoku-Oki earthquake”, Geophys. Res. Lett., 38, L00G07, doi:10.1029/2011GL048118.
-
-Bao, H., Ampuero, J. P., Meng, L., Fielding, E. J., Liang, C., Milliner, C. W., ... & Huang, H. (2019). Early and persistent supershear rupture of the 2018 magnitude 7.5 Palu earthquake. Nature Geoscience, 12(3), 200-205.
-
-Kiser, E., & Ishii, M. (2017). Back-projection imaging of earthquakes. Annual Review of Earth and Planetary Sciences, 45, 271-299.
-
-Backprojection imaging is also performed routinely by IRIS for all new large earthquakes: https://ds.iris.edu/ds/products/backprojection/
-
-The MUSICBP code is contributed and maintained by Han Bao (hbrandon@ucla.edu), Tian Feng (tianfengseis@gmail.com) and Lingsen Meng (meng@epss.ucla.edu). 
-
-- [x] Instruction: MUSICBP.pdf
+The code is contributed and maintained by Liuwei Xu (xuliuw1997@ucla.edu), Han Bao (hbrandon@ucla.edu), and Lingsen Meng (meng@epss.ucla.edu). 
 
 - [x] Code and Data: MUSICBP.zip
 
-- [x] Related Paper: Bao_NatGeo2019.pdf and Meng_et_al-2011-Geophysical_Research_Letters.pdf
+- [x] Related Paper: Kokoxili 2001.pdf by M. Vallée and Eric M. Dunham, 2012
