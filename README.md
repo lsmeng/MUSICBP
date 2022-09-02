@@ -15,7 +15,7 @@ Kiser, E., & Ishii, M. (2017). Back-projection imaging of earthquakes. Annual Re
 
 Backprojection imaging is also performed routinely by IRIS for all new large earthquakes: https://ds.iris.edu/ds/products/backprojection/
 
-The MUSICBP code is contributed and maintained by Han Bao (hbrandon@ucla.edu), Tian Feng (tianfengseis@gmail.com) and Lingsen Meng (meng@epss.ucla.edu). 
+The MUSICBP code is contributed and maintained by Liuwei Xu (xuliuw1997@ucla.edu), Han Bao (hbrandon@ucla.edu), and Lingsen Meng (meng@epss.ucla.edu). 
 
 - [x] Instruction: SEBP.pdf
 
