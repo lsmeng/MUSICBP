@@ -47,6 +47,7 @@ The MUSIC back-projection method implemented in this package has underpinned rup
 - Xu, L., Ji, C., Meng, L., Ampuero, J.-P., et al. (2024). Dual-initiation ruptures in the 2024 Noto earthquake encircling a fault asperity at a swarm edge. *Science*, 385(6711), 871–876. (cover article)
 - Bao, H., Xu, L., Meng, L., Ampuero, J.-P., et al. (2022). Global frequency of oceanic and continental supershear earthquakes. *Nature Geoscience*, 15, 942–949.
 - Bao, H., Ampuero, J.-P., Meng, L., et al. (2019). Early and persistent supershear rupture of the 2018 magnitude 7.5 Palu earthquake. *Nature Geoscience*, 12(3), 200–205.
+- Avouac, J.-P., Meng, L., Wei, S., Wang, T., & Ampuero, J.-P. (2015). Lower edge of locked Main Himalayan Thrust unzipped by the 2015 Gorkha earthquake. *Nature Geoscience*, 8, 708–711.
 
 ## Maintainers
 
