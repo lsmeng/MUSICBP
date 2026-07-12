@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use MUSICBP, please cite the software and the key methodology papers listed below."
+title: "MUSICBP: Beamforming and MUSIC Back-Projection of teleseismic P waves for earthquake rupture imaging"
+type: software
+authors:
+  - family-names: Meng
+    given-names: Lingsen
+    affiliation: "University of California, Los Angeles"
+    email: meng@epss.ucla.edu
+  - family-names: Bao
+    given-names: Han
+  - family-names: Feng
+    given-names: Tian
+repository-code: "https://github.com/lsmeng/MUSICBP"
+license: MIT
+keywords:
+  - seismology
+  - back-projection
+  - earthquake-rupture
+  - array-seismology
+  - MUSIC
+preferred-citation:
+  type: article
+  title: "A window into the complexity of the dynamic rupture of the 2011 Mw 9 Tohoku-Oki earthquake"
+  authors:
+    - family-names: Meng
+      given-names: Lingsen
+    - family-names: Inbal
+      given-names: Asaf
+    - family-names: Ampuero
+      given-names: Jean-Paul
+  journal: "Geophysical Research Letters"
+  volume: 38
+  issue: 7
+  year: 2011
+  doi: "10.1029/2011GL048118"
