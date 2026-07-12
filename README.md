@@ -48,6 +48,7 @@ The MUSIC back-projection method implemented in this package has underpinned rup
 - Bao, H., Xu, L., Meng, L., Ampuero, J.-P., et al. (2022). Global frequency of oceanic and continental supershear earthquakes. *Nature Geoscience*, 15, 942–949.
 - Bao, H., Ampuero, J.-P., Meng, L., et al. (2019). Early and persistent supershear rupture of the 2018 magnitude 7.5 Palu earthquake. *Nature Geoscience*, 12(3), 200–205.
 - Avouac, J.-P., Meng, L., Wei, S., Wang, T., & Ampuero, J.-P. (2015). Lower edge of locked Main Himalayan Thrust unzipped by the 2015 Gorkha earthquake. *Nature Geoscience*, 8, 708–711.
+- Simons, M., Minson, S. E., Sladen, A., Ortega, F., Jiang, J., Owen, S. E., Meng, L., Ampuero, J.-P., et al. (2011). The 2011 magnitude 9.0 Tohoku-Oki earthquake: Mosaicking the megathrust from seconds to centuries. *Science*, 332(6036), 1421–1425. doi:10.1126/science.1206731
 
 ## Maintainers
 
