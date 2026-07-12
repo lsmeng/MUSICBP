@@ -39,6 +39,15 @@ If you use this code, please cite:
 
 For a review of the method: Kiser, E., & Ishii, M. (2017). Back-projection imaging of earthquakes. *Annual Review of Earth and Planetary Sciences*, 45, 271–299.
 
+## Selected publications using MUSICBP
+
+The MUSIC back-projection method implemented in this package has underpinned rupture-imaging studies of many of the most significant recent earthquakes, including:
+
+- Xu, L., Meng, L., Yunjun, Z., et al. (2025). Ultralong, supershear rupture of the 2025 Mw 7.7 Mandalay earthquake reveals unaccounted risk. *Science*.
+- Xu, L., Ji, C., Meng, L., Ampuero, J.-P., et al. (2024). Dual-initiation ruptures in the 2024 Noto earthquake encircling a fault asperity at a swarm edge. *Science*, 385(6711), 871–876. (cover article)
+- Bao, H., Xu, L., Meng, L., Ampuero, J.-P., et al. (2022). Global frequency of oceanic and continental supershear earthquakes. *Nature Geoscience*, 15, 942–949.
+- Bao, H., Ampuero, J.-P., Meng, L., et al. (2019). Early and persistent supershear rupture of the 2018 magnitude 7.5 Palu earthquake. *Nature Geoscience*, 12(3), 200–205.
+
 ## Maintainers
 
 The MUSICBP code is contributed and maintained by Han Bao (hbrandon@ucla.edu), Tian Feng (tianfengseis@gmail.com), and Lingsen Meng (meng@epss.ucla.edu), UCLA Earth, Planetary, and Space Sciences.
