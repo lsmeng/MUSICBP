@@ -1,24 +1,48 @@
 # MUSICBP
-Beamforming and MUSIC back-projection (BP) of teleseismic P waves implemented in Matlab. The Matlab Signal processing, Mapping and Imaging tool boxes are required. 
 
-The objective of this package is to perform the Back-Projection Imaging on the seismograms of large earthquakes recorded by large-scale dense arrays. The instruction is performed on the 2018 Mw 7.5 Palu Earthquake, and you can also practise Back-Projection Imaging on the 2011 Mw 9.0 Tohoku Earthquake on your own. 
+**Beamforming and MUSIC Back-Projection (BP) of teleseismic P waves for earthquake rupture imaging, implemented in MATLAB.**
 
-Back-Projection is an earthquake-rupture imaging technique utilizing the coherent teleseismic P wavefield based on seismic array processing. Back-tracking of seismic waves recorded by dense arrays allows Back-Projection to determine the spatio-temporal properties of the rupture (length, direction, speed, and segmentation). Over recent decades, the development of large-scale dense seismic networks has enabled the Back-Projection imaging of the rupture process of major large earthquakes. 
+Back-Projection is an earthquake-rupture imaging technique utilizing the coherent teleseismic P wavefield based on seismic array processing. Back-tracking of seismic waves recorded by dense arrays allows Back-Projection to determine the spatio-temporal properties of the rupture (length, direction, speed, and segmentation). Over recent decades, the development of large-scale dense seismic networks has enabled the Back-Projection imaging of the rupture process of major large earthquakes.
 
-This code package include two versions of Back-Projection: Beamforming and Multiple Signal Classification (MUSIC). Beamforming stacks the seismograms directly in the time domain, while MUSIC is performed in the frequency domain based on the orthogonality between the noise and signal subspace of the data covariance matrix. Compared with Beamforming, MUSIC has the advantage of detecting multiple closeby sources simutaneously. More details about Back-Projection and MUSIC could be found in the following papers:
+This package includes two versions of Back-Projection:
 
-Meng, L., A. Inbal, and J.-P. Ampuero. 2011. “A window into the complexity of the dynamic rupture of the 2011 Mw 9 Tohoku-Oki earthquake”, Geophys. Res. Lett., 38, L00G07, doi:10.1029/2011GL048118.
+- **Beamforming** — stacks the seismograms directly in the time domain.
+- **MUSIC (Multiple Signal Classification)** — performed in the frequency domain based on the orthogonality between the noise and signal subspaces of the data covariance matrix. Compared with Beamforming, MUSIC has the advantage of resolving multiple closely spaced simultaneous sources.
 
-Bao, H., Ampuero, J. P., Meng, L., Fielding, E. J., Liang, C., Milliner, C. W., ... & Huang, H. (2019). Early and persistent supershear rupture of the 2018 magnitude 7.5 Palu earthquake. Nature Geoscience, 12(3), 200-205.
+The tutorial walks through the 2018 Mw 7.5 Palu earthquake, and sample data for the 2011 Mw 9.0 Tohoku earthquake are included for further practice. Back-Projection imaging is also performed routinely by IRIS for all new large earthquakes: https://ds.iris.edu/ds/products/backprojection/
 
-Kiser, E., & Ishii, M. (2017). Back-projection imaging of earthquakes. Annual Review of Earth and Planetary Sciences, 45, 271-299.
+## Repository layout
 
-Backprojection imaging is also performed routinely by IRIS for all new large earthquakes: https://ds.iris.edu/ds/products/backprojection/
+| Path | Content |
+|------|---------|
+| [`code/`](code/) | MATLAB source code (`General_BP.m` is the main driver), plate-boundary/coastline data files, and sample waveform datasets for the 2018 Palu (`PaluAUData/`) and 2011 Tohoku (`TohokuTAData/`) earthquakes |
+| [`code/README.md`](code/README.md) | Step-by-step usage instructions |
+| [`MUSICBP.pdf`](MUSICBP.pdf) | Full tutorial document |
+| `Bao_NatGeo2019.pdf`, `Meng_et_al-2011-Geophysical_Research_Letters.pdf` | Reference papers |
 
-The MUSICBP code is contributed and maintained by Han Bao (hbrandon@ucla.edu), Tian Feng (tianfengseis@gmail.com) and Lingsen Meng (meng@epss.ucla.edu). 
+## Requirements
 
-- [x] Instruction: MUSICBP.pdf
+MATLAB with the Signal Processing, Mapping, and Image Processing toolboxes.
 
-- [x] Code and Data: MUSICBP.zip
+## Quick start
 
-- [x] Related Paper: Bao_NatGeo2019.pdf and Meng_et_al-2011-Geophysical_Research_Letters.pdf
+1. Open [`code/General_BP.m`](code/General_BP.m), set `Initial_flag = 1` and a project name (e.g. `Palu_2018`), and run it to initialize the project folder.
+2. Copy your SAC waveform files into the project's `Data/` folder (or use the included Palu/Tohoku sample data).
+3. Follow the step-by-step flags (`readBP_flag` → `alignBP_flag` → `runBPbmfm_flag` / `runBPmusic_flag`) described in [`code/README.md`](code/README.md) and `MUSICBP.pdf` to read, align, and back-project the data. Outputs include BP movies (`movie.gif`), summary plots (`summary.pdf`), and radiator coordinates (`HFdots`).
+
+## Citation
+
+If you use this code, please cite:
+
+- Meng, L., A. Inbal, and J.-P. Ampuero (2011). A window into the complexity of the dynamic rupture of the 2011 Mw 9 Tohoku-Oki earthquake. *Geophys. Res. Lett.*, 38, L00G07. doi:10.1029/2011GL048118
+- Bao, H., Ampuero, J.-P., Meng, L., Fielding, E. J., Liang, C., Milliner, C. W., Feng, T., & Huang, H. (2019). Early and persistent supershear rupture of the 2018 magnitude 7.5 Palu earthquake. *Nature Geoscience*, 12(3), 200–205.
+
+For a review of the method: Kiser, E., & Ishii, M. (2017). Back-projection imaging of earthquakes. *Annual Review of Earth and Planetary Sciences*, 45, 271–299.
+
+## Maintainers
+
+The MUSICBP code is contributed and maintained by Han Bao (hbrandon@ucla.edu), Tian Feng (tianfengseis@gmail.com), and Lingsen Meng (meng@epss.ucla.edu), UCLA Earth, Planetary, and Space Sciences.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
