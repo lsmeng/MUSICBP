@@ -50,9 +50,9 @@ The MUSIC back-projection method implemented in this package has underpinned rup
 - Avouac, J.-P., Meng, L., Wei, S., Wang, T., & Ampuero, J.-P. (2015). Lower edge of locked Main Himalayan Thrust unzipped by the 2015 Gorkha earthquake. *Nature Geoscience*, 8, 708–711.
 - Simons, M., Minson, S. E., Sladen, A., Ortega, F., Jiang, J., Owen, S. E., Meng, L., Ampuero, J.-P., et al. (2011). The 2011 magnitude 9.0 Tohoku-Oki earthquake: Mosaicking the megathrust from seconds to centuries. *Science*, 332(6036), 1421–1425. doi:10.1126/science.1206731
 
-## Maintainers
+## Maintainer
 
-The MUSICBP code is contributed and maintained by Han Bao (hbrandon@ucla.edu), Tian Feng (tianfengseis@gmail.com), and Lingsen Meng (meng@epss.ucla.edu), UCLA Earth, Planetary, and Space Sciences.
+MUSICBP is maintained by Lingsen Meng (meng@epss.ucla.edu), UCLA Earth, Planetary, and Space Sciences. Original code contributions by Han Bao and Tian Feng.
 
 ## License
 
